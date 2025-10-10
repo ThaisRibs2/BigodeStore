@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+
+
+}
+
+header {
+  background-image: url(../img/fundo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 92px;
+
+
+    & a {
+      color: #EFEFEFB2;
+      padding: 16px;
+
+    }
+
+    .active {
+      color: #fff;
+    }
+
+    & .btns {
+      display: flex;
+      gap: 16px;
+
+
+      & .button1 {
+        background: #3B44F6;
+        border: none;
+        width: 90;
+        height: 37;
+        padding-top: 11px;
+        padding-right: 16px;
+        padding-bottom: 11px;
+        padding-left: 16px;
+        gap: 10px;
+        border-radius: 8px;
+
+      }
+
+      & .button2 {
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 18px;
+        width: 90;
+        height: 38;
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        gap: 10px;
+        border-radius: 8px;
+        border-width: 1px;
+
+
+
+
+
+      }
+
+
+    }
+
+
+  }
+}
+
+
+
+
+.hero {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: calc(100vh - 62px);
+  font-size: 16px;
+
+  & .content {
+
+
+    & .h1 {
+
+      font-size: 48px;
+      margin-bottom: 26px;
+
+    }
+
+    & .p {
+      width: 417px;
+      font-size: 24px;
+    }
+
+  }
+
+  & a {
+    width: 162px;
+    text-align: center;
+    background: #3B44F6;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 8px;
+    height: 59;
+    gap: 10px;
+    
+  
+
+  }
+
+
+
+
+
+}
+
+section .id {
+  & why-up {
+    align-items: center;
+
+  }
+}
+
+main {
+
+
+  & #why-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 95px;
+
+    & .tittle {
+      text-align: center;
+      padding: 16px;
+
+      & h2 {
+        font-size: 36px;
+        margin: 16px;
+        color: #181818;
+
+        & p {
+          width: 473px;
+          font-size: 18px;
+          color: #323232;
+        }
+      }
+
+
+
+    }
+
+    & .card {
+      display: flex;
+      justify-content: space-between;
+
+      & .card {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+
+        & .p {
+          width: 202px;
+          text-align: center;
+
+        }
+
+
+      }
+    }
+
+  }
+
+}
